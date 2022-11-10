@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 import math
+#Ahigad Genish
 def createX(row,col):
 
     X = np.random.rand(row, col)
@@ -44,7 +45,7 @@ if __name__ == '__main__':
 
     #create matrix X(nxd) represent number of examples on numbers of features.
     X, Ytag, Btag, B = createX(1500, 600)
-    #define variance and expectaion of the noise
+    #define variance and expectation of the noise
     tests = 100
     mu = 0
     error = []
